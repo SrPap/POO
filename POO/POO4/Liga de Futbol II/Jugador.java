@@ -28,3 +28,20 @@ public class Jugador {
     public static void mostrarJugador(String nombre, Equipo equipo) {
       System.out.println("Jugador: " + nombre + ", Equipo: " + (equipo != null ? equipo.getNombre() : "Sin equipo"));    }
 }
+
+// public class Jugador {
+//    private String nombre;
+
+    // Constructor
+//    public Jugador(String nombre) {
+//        this.nombre = nombre;
+//    }
+
+    // Getters y Setters
+//    public String getNombre() {
+//        return nombre;
+//    }
+//    public void setNombre(String nombre) {
+//        this.nombre = nombre;
+//    }
+// }
